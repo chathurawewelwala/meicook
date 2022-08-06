@@ -1,0 +1,6 @@
+type Client{
+    id: ID!
+    fName: String
+    lName: String
+    account: [Account]
+}

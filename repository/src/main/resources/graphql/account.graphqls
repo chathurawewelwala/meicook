@@ -1,0 +1,14 @@
+type Account{
+    id: ID!
+    account: String
+    balance: Float
+    currency: Currency
+}
+
+enum Currency {
+    USD
+    GDP
+    RS
+    EUR
+    YEN
+}

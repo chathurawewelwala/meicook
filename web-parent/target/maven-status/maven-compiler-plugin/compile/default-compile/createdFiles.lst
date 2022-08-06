@@ -1,0 +1,3 @@
+com\meicook\web\controller\ClientController.class
+com\meicook\web\RunAppMain.class
+com\meicook\web\ControllerAdvice\ExceptionAdvice.class

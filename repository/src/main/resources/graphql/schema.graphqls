@@ -1,0 +1,4 @@
+type Query{
+    getAllClient:[Client]
+    getClient(id: ID!):Client
+}
