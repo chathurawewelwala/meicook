@@ -22,21 +22,6 @@ import static org.mockito.Mockito.when;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class ControllerLayerTest {
 
-//    @LocalServerPort
-//    private int port;
-//
-//    @Autowired
-//    private TestRestTemplate restTemplate;
-//
-//    @Test
-//    public void getHello() throws Exception {
-//
-//        ResponseEntity<String> response = restTemplate.getForEntity(
-//                new URL("http://localhost:" + port + "/").toString(), String.class);
-//        assertEquals("Hello Controller", response.getBody());
-//
-//    }
-
     @MockBean
     private ClientRepo clientRepo;
     @Autowired
